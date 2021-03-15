@@ -62,10 +62,10 @@ header {
 header h1 {
 	width: 100%;
 	margin: 0;
-	padding: 38px 0;
-	display: flex;
-	justify-content: center;
-	align-items: center; 
+	padding: 15px 0;
+	text-align: center;
+	
+
 	border-bottom: 3px solid #77a466;
 
 
@@ -77,7 +77,7 @@ header h1 span {
 
 header nav {
 	
-	padding: 46px 0;
+	
 
 }
 header nav ul {
@@ -90,7 +90,10 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 14px;
 	padding: 0 10px;
-	display: inline;
+	margin: 30px;
+	list-style: none;
+	text-align: center;
+	
 }
 header nav ul li a{
 	text-decoration: none;
@@ -139,9 +142,9 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-flow: row wrap;
 	
@@ -151,6 +154,7 @@ header nav ul li a{
 
 .section-one h3 {
 	padding: 10px 0;
+
 }
 
 .section-two {
@@ -165,7 +169,8 @@ header nav ul li a{
 
 .menu {
 	list-style: none;
-	padding: 0;
+	padding: 10px;
+
 }
 .menu li {
 	padding: 10px 0;
@@ -203,6 +208,16 @@ footer span {
 	font-size: 14px;
 }
 
+@media all and (min-width:768px) {
+	.bottom-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-basis: 768px;
+	}
 
 }
+
+@media all and (min-width:1200px) {
+
 }
